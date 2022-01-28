@@ -12,7 +12,7 @@ Usage: bfi [-h] [-s size] [-i input] [-p] [-c] [-e] [-o output]
 -o        : specific output file
 ```
 
-The interpreter first compile the bf source code to assembly code.In the code the real address is fulled by 0x00.(for saving compiled code)
+The interpreter first compile the bf source code to assembly code.In the code the real address is filled with 0x00.(for saving compiled code)
 Then the interpreter fill these 0x00 with real address,and execute assembly code below:
 ```asm
         mov ebx, cell
