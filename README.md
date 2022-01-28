@@ -1,6 +1,7 @@
 # BFInterpreter
 Interpreter for BrainFuck with JIT
 
+```
 Usage: bfi [-h] [-s size] [-i input] [-p] [-c] [-e] [-o output]
 -h        : show this message.
 -s        : specific the size of cells
@@ -9,3 +10,4 @@ Usage: bfi [-h] [-s size] [-i input] [-p] [-c] [-e] [-o output]
 -c        : compile without executing
 -e        : execute compiled file
 -o        : specific output file
+```
