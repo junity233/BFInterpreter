@@ -136,14 +136,14 @@ const AsmOpcode asmOpcode[] = {
 void usage() {
     puts("Brainfuck interpreter "version);
     puts("");
-    puts("Usage: bfi [-h] [-s size] [-i input] [-p] [-c] [-e] [-o output]");
+    puts("Usage: bfi [-h] [-s size] [-i input] [-o output] [-p] [-c] [-e]");
     puts("-h        : show this message.");
-    puts("-s        : set the size of cells");
-    puts("-i        : set input file.If not specificed,bfi will read from stdin");
+    puts("-s        : specific the size of cells");
+    puts("-i        : specific input file.If not specificed,bfi will read from stdin");
+    puts("-o        : specific output file");
     puts("-p        : print information after program exists");
     puts("-c        : compile without executing");
     puts("-e        : execute compiled file");
-    puts("-o        : output file");
 }
 
 /**
